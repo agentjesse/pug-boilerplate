@@ -1,12 +1,18 @@
 # Pug Index Page Boilerplate
 
-A Pug version of the HTML5 Boilerplate index.html
+A Pug version of the [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html)
 
 ## Usage
 
-Download to a folder and run grunt w to begin watching for changes to any .pug files.
+Download to a folder and enter
 
-Use to quickly start one page .pug projects
+```
+grunt w
+```
+
+in node to begin watching for changes to any .pug files.
+
+Use to quickly start projects using .pug
 
 ## Support
 
