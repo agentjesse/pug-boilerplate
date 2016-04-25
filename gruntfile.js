@@ -3,26 +3,15 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pug: {
-          debug: {
-            options: {
-              data: {
-                debug: true
-              }
-            },
-            files: {
-              'debug-index.html': 'index.pug',
-              'debug-404.html' : '404.pug'
-            }
-          },
-          release: {
+          compile: {
             options: {
               data: {
                 debug: false
               }
             },
             files: {
-              'index.html': 'index.pug',
-              '404.html' : '404.pug'
+              'index.html': 'src/index.pug',
+              '404.html'  : 'src/404.pug'
             }
           }
         },
