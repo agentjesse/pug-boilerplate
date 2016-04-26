@@ -10,9 +10,9 @@ Download to a folder and enter
 grunt w
 ```
 
-in node to begin watching for changes to any .pug files.
+in node to begin watching for changes to any .pug files. 404.pug and index.pug will compile to index.html and 404.html. 
 
-Use to quickly start projects using .pug
+Use to quickly start projects with .pug.
 
 ## Support
 
